@@ -49,7 +49,27 @@ We are building out static community sites using [NextJS](https://nextjs.org). A
 
 [![search libraries table preview](readme-images/search_libraries_table_preview.png)](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
 
+## Licensing
 
+This repository currently only consists of documentation. We dedicate this documentation to the public domain through a CC-0-1.0 waiver:
+
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://find-and-update.company-information.service.gov.uk/company/12005620">
+    <span property="dct:title">KITSPACE MANUFACTURING SOFTWARE LTD</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Open Know-How Search Documentation</span>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="GB" about="https://find-and-update.company-information.service.gov.uk/company/12005620">
+  United Kingdom</span>.
+</p>
 
 ## Thanks
 
