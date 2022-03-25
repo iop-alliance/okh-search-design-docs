@@ -43,7 +43,7 @@ We are already reaching out to communities and building prototypes of OKH pages 
 
 ## Software Bill of Materials
 
-We are building out static community sites using [NextJS](https://nextjs.org). A more comprehensive list of dependencies can be obtain by inspecting the `package.json` and the `package-lock.json` of the relevant project (e.g. [for GOSH](https://gitlab.com/gosh-community/gosh-okh-search/-/blob/master/package.json)). We are still evaluating search libraries for the individual use-cases. Here is a table we are working on:
+We are building out static community sites using [NextJS](https://nextjs.org). A more comprehensive list of dependencies can be obtained by inspecting the `package.json` and the `package-lock.json` of the relevant project (e.g. [for GOSH](https://gitlab.com/gosh-community/gosh-okh-search/-/blob/master/package.json)). We are still evaluating search libraries for the individual use-cases. Here is a table we are working on:
 
 [Search Libraries Table](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
 
