@@ -19,13 +19,37 @@ A search engine for open source hardware that makes use of the [IOP-OKH][iop-okh
 
 ([diagram source](https://excalidraw.com/#json=kXJcKO75tBfwyr-R47aPw,bYxgATlARFCm0NMwkunliw))
 
-- [Example Communities Table](https://kitspaceorg.notion.site/86b835b66cbe4ab692d80caeae4c1cb0)
-- [Usability Issues/Features](https://kitspaceorg.notion.site/a070f3e0cbb7489f87b9c597a2a22497)
-- [Search Libraries Table](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
 
-## Relevant Reading
+## Communities
 
-- [Google Search Is Dying](https://dkb.io/post/google-search-is-dying)
+We are already reaching out to communities and building prototypes of OKH pages for them.
+
+- https://field-ready-projects.openknowhow.org
+- https://projects.openhardware.science
+
+[Example Communities Table](https://kitspaceorg.notion.site/86b835b66cbe4ab692d80caeae4c1cb0)
+
+[![communities table preview](readme-images/communities_table_preview.png)](https://kitspaceorg.notion.site/86b835b66cbe4ab692d80caeae4c1cb0)
+
+
+## Usability Issues/Features
+
+
+[Usability Issues/Features table](https://kitspaceorg.notion.site/a070f3e0cbb7489f87b9c597a2a22497)
+
+[![usability issues table preview](readme-images/usability_issues_preview.png)](https://kitspaceorg.notion.site/a070f3e0cbb7489f87b9c597a2a22497)
+
+
+
+## Software Bill of Materials
+
+We are building out static community sites using [NextJS](https://nextjs.org). A more comprehensive list of dependencies can be obtain by inspecting the `package.json` and the `package-lock.json` of the relevant project (e.g. [for GOSH](https://gitlab.com/gosh-community/gosh-okh-search/-/blob/master/package.json)). We are still evaluating search libraries for the individual use-cases. Here is a table we are working on:
+
+[Search Libraries Table](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
+
+[![search libraries table preview](readme-images/search_libraries_table_preview.png)](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
+
+
 
 ## Thanks
 
