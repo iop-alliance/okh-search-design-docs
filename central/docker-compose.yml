@@ -1,0 +1,29 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./frontend:/app
+      - frontend-node_modules:/app/node_modules
+      - frontend-next:/app/.next
+    command: /bin/sh --verbose -c 'yarn install && yarn dev'
+    depends_on:
+      - meilisearch
+
+  meilisearch:
+    image: getmeili/meilisearch:v0.26.1
+    ports:
+      - 7700:7700
+    volumes:
+      - meilisearch-data:/data.ms
+
+volumes:
+  meilisearch-data: null
+  frontend-node_modules: null
+  frontend-next: null
