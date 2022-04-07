@@ -23,7 +23,21 @@ services:
     volumes:
       - meilisearch-data:/data.ms
 
+  data-fetcher:
+    build:
+      context: data-fetcher
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./data-fetcher:/app
+      - data-fetcher-node_modules:/app/node_modules
+    depends_on:
+      - meilisearch
+    command: /bin/sh --verbose -c 'yarn install && yarn go'
+
 volumes:
   meilisearch-data: null
   frontend-node_modules: null
   frontend-next: null
+  data-fetcher-node_modules: null
