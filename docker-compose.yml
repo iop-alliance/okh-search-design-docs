@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  meilisearch:
+    image: "getmeili/meilisearch:v0.26.1"
+    ports:
+      - "7700:7700"
+    volumes:
+      - "meilisearch-data:/data.ms"
+
+volumes:
+  meilisearch-data:
