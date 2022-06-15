@@ -1,0 +1,37 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+      target: base
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./frontend:/app
+      - frontend-node_modules:/app/node_modules
+      - frontend-next:/app/.next
+    command: /bin/sh --verbose -c 'yarn install && yarn dev'
+
+  meilisearch:
+    ports:
+      - 7700:7700
+
+  data-fetcher:
+    build:
+      context: data-fetcher
+      dockerfile: Dockerfile
+      target: base
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./data-fetcher:/app
+      - data-fetcher-node_modules:/app/node_modules
+    command: /bin/sh --verbose -c 'yarn install && yarn go'
+
+volumes:
+  frontend-node_modules: null
+  frontend-next: null
+  data-fetcher-node_modules: null
