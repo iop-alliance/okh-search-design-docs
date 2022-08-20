@@ -27,17 +27,17 @@ We are already reaching out to communities and building prototypes of OKH pages 
 - https://field-ready-projects.openknowhow.org
 - https://projects.openhardware.science
 
-[Example Communities Table](https://kitspaceorg.notion.site/86b835b66cbe4ab692d80caeae4c1cb0)
+[Example Communities Table](tables/example_communities.csv)
 
-[![communities table preview](readme-images/communities_table_preview.png)](https://kitspaceorg.notion.site/86b835b66cbe4ab692d80caeae4c1cb0)
+[![communities table preview](readme-images/communities_table_preview.png)](tables/example_communities.csv)
 
 
 ## Usability Issues/Features
 
 
-[Usability Issues/Features table](https://kitspaceorg.notion.site/a070f3e0cbb7489f87b9c597a2a22497)
+[Usability Issues/Features table](tables/usability.csv)
 
-[![usability issues table preview](readme-images/usability_issues_preview.png)](https://kitspaceorg.notion.site/a070f3e0cbb7489f87b9c597a2a22497)
+[![usability issues table preview](readme-images/usability_issues_preview.png)](tables/usability.csv)
 
 
 
@@ -45,9 +45,9 @@ We are already reaching out to communities and building prototypes of OKH pages 
 
 We are building out static community sites using [NextJS](https://nextjs.org). A more comprehensive list of dependencies can be obtained by inspecting the `package.json` and the `package-lock.json` of the relevant project (e.g. [for GOSH](https://gitlab.com/gosh-community/gosh-okh-search/-/blob/master/package.json)). We are still evaluating search libraries for the individual use-cases. Here is a table we are working on:
 
-[Search Libraries Table](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
+[Search Libraries Table](tables/search_libraries.csv)
 
-[![search libraries table preview](readme-images/search_libraries_table_preview.png)](https://kitspaceorg.notion.site/77c08d2059fe42db83d207a95886babf)
+[![search libraries table preview](readme-images/search_libraries_table_preview.png)](tables/search_libraries.csv)
 
 ## Licensing
 
